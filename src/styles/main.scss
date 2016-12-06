@@ -1,0 +1,18 @@
+$background: lightgray;
+
+body {
+    background: $background;
+    font-family: "Helvetica Neue", serif;
+}
+
+section {
+    &.tab-section {
+        ul {
+            list-style-type: none;
+            li {
+                width: 100%;
+            }
+        }
+    }
+}
+
